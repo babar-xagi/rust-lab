@@ -1,0 +1,5 @@
+rustc 1.99.0 (b940084d7 2026-09-28)
+cargo 1.99.0 (5f94df478 2026-08-27)
+backend=cargo-executable profile=dev os=linux arch=x86_64 mode=Changed iterations=10 warmup=0
+session_setup_ms=0.035100
+total_ms min=232.894923 p50=245.489330 p95=270.707043 max=270.707043 (nearest-rank percentiles)

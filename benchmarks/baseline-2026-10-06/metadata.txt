@@ -1,0 +1,25 @@
+date=2026-10-06
+environment=Ubuntu in WSL2
+workload=1u64 + 2
+cli_profile=release
+cell_profile=dev
+power_and_load=uncontrolled
+Linux 6.18.40.1-microsoft-standard-WSL2
+model name	: Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz
+RUSTFLAGS=unset
+CARGO_ENCODED_RUSTFLAGS=unset
+RUSTC_WRAPPER=unset
+RUSTC_WORKSPACE_WRAPPER=unset
+CARGO_BUILD_TARGET=unset
+sha256 9c4e1831c235825f3933288afadf3c0e8c666175e8d7f8a5d72813bda995d63f crates/rust-lab-cli/src/main.rs
+sha256 f44da59eaab2e8ff37b1092a0c7a4895399364e7ea9cc62e9706b474dee6c390 crates/rust-lab-cli/src/options.rs
+sha256 cf8cbc452a7d11987505739dc45d0be8a42c131b2ab117e410753193f893e5d3 crates/rust-lab-cli/tests/cli.rs
+sha256 1358fa0798c2f4c10acacc707f3a85628b3ab12f4616c4f209cc38722c79a10b crates/rust-lab-engine/src/backend.rs
+sha256 af80d80bd9fd7781bc6df710652be8bcadc30b090f210b7ab390687f56976f01 crates/rust-lab-engine/src/error.rs
+sha256 74ebd0e0d6e1007867c8f25dc1f40028463c4c823b374a0333aecaf6a60bfb0f crates/rust-lab-engine/src/lib.rs
+sha256 8322a92b4cb017656551c92fd293cdf4399543956acf67c8380583737b54c0ba crates/rust-lab-engine/src/session.rs
+sha256 b69007b12d66d2406b8c5645c3fb33b144bfb1d81007225d484594e60f068204 crates/rust-lab-engine/src/timing.rs
+sha256 86af5d96faaadd29b961b03103e90a9547a26f2ac11cae16fb4e01770e26264a crates/rust-lab-engine/tests/cargo_backend.rs
+sha256 0a045487d015a84e728cae9ca8a1735e08f7e9c0d707ba7ead68b40a5b5df791 Cargo.toml
+sha256 a4f8ed923ee8af8c1958c25f6ac0e7329cceee89b1665f4c8dd9ecb0a6980019 crates/rust-lab-cli/Cargo.toml
+sha256 c3c65b39f0fb0e63d56e84bbd7f6bf3c74b7584c5e1f083522b29ee7e6b341bc crates/rust-lab-engine/Cargo.toml

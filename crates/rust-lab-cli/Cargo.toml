@@ -1,0 +1,16 @@
+[package]
+name = "rust-lab-cli"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "rust-lab"
+path = "src/main.rs"
+
+[dependencies]
+rust-lab-engine = { path = "../rust-lab-engine" }
+
+[lints]
+workspace = true
